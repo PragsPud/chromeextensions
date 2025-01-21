@@ -1,0 +1,17 @@
+// manifest.json
+{
+  "manifest_version": 2,
+  "name": "Clock Extension",
+  "version": "1.0",
+  "description": "Displays the current date and time",
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Clock Extension"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}

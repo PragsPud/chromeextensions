@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Arithmetic Calculator",
+  "version": "1.0",
+  "description": "A simple arithmetic calculator Chrome extension.",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Amazon Price Checker",
+  "version": "1.0",
+  "description": "Check the price of an Amazon product",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": [
+    "activeTab",
+    "https://www.amazon.in/*"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "default_popup": "popup.html"
+  }
+}
